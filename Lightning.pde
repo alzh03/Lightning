@@ -24,7 +24,10 @@ void draw()
 }
 void mousePressed()
 {
-  draw();
+  startX = 0;
+  startY = 150;
+  endX = 0; 
+  endY = 150;
 }
 float random()
 {
